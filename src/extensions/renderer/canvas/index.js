@@ -39,7 +39,7 @@ function CanvasRenderer(options) {
   r.data.canvasContainer = document.createElement('div');
   var containerStyle = r.data.canvasContainer.style;
   r.data.canvasContainer.setAttribute('style', '-webkit-tap-highlight-color: rgba(0,0,0,0);');
-  containerStyle.position = 'relative';
+  containerStyle.position = 'absolute';
   containerStyle.zIndex = '0';
   containerStyle.overflow = 'hidden';
 
